@@ -1,4 +1,5 @@
-#Personal Portfolio
+# Personal Portfolio
+
 Creating a portfolio for my website using React, GreenSock, Animate.css, and custom CSS animations. The website includes a contact form and includes a map of my home town.
 
 This project taught me a few of the following skills:
