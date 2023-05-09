@@ -41,7 +41,7 @@
         }
         
         img{ 
-            width: 72px;
+            width: 90px;
             margin-left:20px;
             opacity: 0px;
             height:auto;
@@ -51,7 +51,7 @@
         }
     }
     h2{ 
-        color: #8d8d8d;
+        color: #bdb9b9;
         margin-top: 20px;
         font-weight: 400px;
         font-size: 11px; 
@@ -77,6 +77,21 @@
         &:hover{ 
             background: yellow;
             color: #333; /*changes text color*/
+        }
+    }
+
+    .my-logo{ 
+        width: 41%;
+        margin-left: 35%;
+        margin-top: -405px;
+        padding: 25px;
+        animation: fadeIn 2s 1s;
+        animation-fill-mode: forwards;
+
+
+        img{ 
+            width: 700px;
+            border-radius: 100px;
         }
     }
 

@@ -1,10 +1,10 @@
 import './index.scss'
-import NameLogo from "../../assets/images/Screenshot 2023-04-26 at 1.22.00 PM.png"; 
+import NameLogo from "../../assets/images/LogoName.png"; 
 import { Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import AnimatedLetters from '../AnimatedLetters';
-import Logo from './Logo'
 import Loader from 'react-loaders';
+import myLogo from '../../assets/images/KennethsLogo.png'
 
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -40,6 +40,9 @@ const Home = () => {
             </h1>
             <h2>Fullstack Developer / JavaScript Expert / Foodie </h2>
             <Link to='/contact' className='flat-button'> CONTACT ME  </Link>
+            <div className='my-logo'> 
+            <img src={myLogo} alt='logo'/>
+            </div>
         </div>
         <Loader type='pacman' />
         </>
