@@ -1,15 +1,15 @@
 import './index.scss'
-import NameLogo from "../../assets/images/LogoName.png"; 
+import NameLogo from "../../assets/images/better.png"; 
 import { Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import AnimatedLetters from '../AnimatedLetters';
 import Loader from 'react-loaders';
-import myLogo from '../../assets/images/KennethsLogo.png'
+import myLogo from '../../assets/images/my-name-logo.png'
 
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
     const nameArray = ['e', 'n', 'n', 'e', 't', 'h']
-    const jobArray = ['S','o', 'f', 't', 'w', 'a', 'r', 'e', ' ', 'E', 'n', 'g', 'i', 'n', 'n', 'e', 'r', '.']
+    const jobArray = ['S','o', 'f', 't', 'w', 'a', 'r', 'e', ' ', 'E', 'n', 'g', 'i', 'n', 'e', 'e', 'r', '.']
     
    useEffect(() => { 
         setTimeout(()=>{ 

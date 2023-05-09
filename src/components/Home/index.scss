@@ -43,11 +43,12 @@
         img{ 
             width: 90px;
             margin-left:20px;
+            margin-bottom: -10px;
+            margin-right: 0;
             opacity: 0px;
             height:auto;
             animation: rotateIn 1s linear both;
             animation-delay: 1.4s;
-
         }
     }
     h2{ 
@@ -81,17 +82,16 @@
     }
 
     .my-logo{ 
-        width: 41%;
         margin-left: 35%;
-        margin-top: -405px;
+        margin-top: -245px;
         padding: 25px;
         animation: fadeIn 2s 1s;
         animation-fill-mode: forwards;
 
 
         img{ 
-            width: 700px;
-            border-radius: 100px;
+            width: 800px;
+            border-radius:10px;
         }
     }
 
